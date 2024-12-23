@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: e9fa581532ec04fbcb9bd21019207e62
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sword-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef62e1c05f43049aba41cdaf69ed17db
+      internalID: 974257082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a102a6cfc3974aa3af98cf20fc5d276
+      internalID: -2079055888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04713afd8b6714d8f806445586f6c7bb
+      internalID: -935734077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddec7ae72f2b49958ead5cc63ac0a30
+      internalID: -204288064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0d1deea28984db0aad84c628bb9c47
+      internalID: -521018836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d54890573c04c15bf5f4c755ba377d
+      internalID: 1535306060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506e10a8617dc4aed8a5cb4d229fc8e3
+      internalID: -2039962484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f4ee2bf16ab40d786a4788dbb5b2ba
+      internalID: -749056197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89a976c1106d49cdab250bf82169352
+      internalID: -143930310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword-10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d186f267068ba4756a016cfaed9cb2c3
+      internalID: -724063015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e767776a2159d46679e19c55b7482171
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BG 9_0: -121772019
+      BG 9_1: 475296859
+      BG 9_10: -1553515663
+      BG 9_100: -467856238
+      BG 9_101: -1213891548
+      BG 9_102: 2117293786
+      BG 9_103: -1325901840
+      BG 9_104: 2131744184
+      BG 9_105: -1353490933
+      BG 9_106: -1755833996
+      BG 9_107: 1195435612
+      BG 9_108: 1209246815
+      BG 9_109: -1615344224
+      BG 9_11: -1504934367
+      BG 9_110: 3989384
+      BG 9_111: -974814597
+      BG 9_112: -895432375
+      BG 9_113: -1633020058
+      BG 9_114: -1074067647
+      BG 9_115: -1537769480
+      BG 9_116: 839821012
+      BG 9_117: -2047838677
+      BG 9_118: 296119208
+      BG 9_119: 1825536592
+      BG 9_12: -182274888
+      BG 9_120: -1812340822
+      BG 9_121: 664866479
+      BG 9_122: 1486544231
+      BG 9_123: 1924643585
+      BG 9_124: 579235698
+      BG 9_125: -982309162
+      BG 9_126: 904119815
+      BG 9_127: 1463848727
+      BG 9_128: -2077970291
+      BG 9_129: -649253610
+      BG 9_13: 343568756
+      BG 9_130: -608110451
+      BG 9_131: 1402122823
+      BG 9_132: -912609259
+      BG 9_133: -85686197
+      BG 9_134: -150729337
+      BG 9_135: -1396115396
+      BG 9_136: -805450290
+      BG 9_137: -2120110392
+      BG 9_138: 958963306
+      BG 9_139: -1384601398
+      BG 9_14: -677357075
+      BG 9_140: 1570744833
+      BG 9_141: 2037638919
+      BG 9_142: 1920982142
+      BG 9_143: -637082953
+      BG 9_144: 805917002
+      BG 9_145: -578422303
+      BG 9_146: 1872888046
+      BG 9_147: -989965610
+      BG 9_148: 597562456
+      BG 9_149: 1256622649
+      BG 9_15: 27857635
+      BG 9_150: -443713855
+      BG 9_151: -2082863659
+      BG 9_152: -1825790387
+      BG 9_153: 943848780
+      BG 9_154: 1330505248
+      BG 9_155: 2056331631
+      BG 9_156: 772490924
+      BG 9_157: 1434734559
+      BG 9_158: 1074457605
+      BG 9_159: 2029934326
+      BG 9_16: -2021489122
+      BG 9_160: -153130716
+      BG 9_161: -156985764
+      BG 9_162: -1109419968
+      BG 9_163: 407447120
+      BG 9_164: 732443629
+      BG 9_165: 1576366271
+      BG 9_166: 1067887039
+      BG 9_167: -2125095969
+      BG 9_168: 918302940
+      BG 9_169: -1875772636
+      BG 9_17: 1884318438
+      BG 9_170: -314228759
+      BG 9_171: -1521571605
+      BG 9_172: -2045356820
+      BG 9_173: -153478338
+      BG 9_174: -1429289020
+      BG 9_175: 252186794
+      BG 9_176: -107798507
+      BG 9_177: 777599766
+      BG 9_178: -1176995824
+      BG 9_179: 756017874
+      BG 9_18: -1863458072
+      BG 9_180: 781928821
+      BG 9_181: -1951060673
+      BG 9_182: -1943115891
+      BG 9_183: -57114211
+      BG 9_184: 1899665178
+      BG 9_185: 388712311
+      BG 9_186: -1943550980
+      BG 9_187: 2110234434
+      BG 9_188: -637168215
+      BG 9_189: -1231751043
+      BG 9_19: -245842894
+      BG 9_190: 85639817
+      BG 9_191: 457221529
+      BG 9_192: -47769547
+      BG 9_193: 1315792561
+      BG 9_194: 2064236172
+      BG 9_195: -878787872
+      BG 9_196: -1716940556
+      BG 9_197: -744005745
+      BG 9_198: 1023223129
+      BG 9_199: 310969180
+      BG 9_2: 58061478
+      BG 9_20: -1229038075
+      BG 9_200: 334841315
+      BG 9_201: -2077292315
+      BG 9_202: -1818880558
+      BG 9_203: -1714167062
+      BG 9_204: 1336081727
+      BG 9_205: 1486277830
+      BG 9_206: 175008521
+      BG 9_207: -1985154894
+      BG 9_208: -1765653894
+      BG 9_209: -1697119736
+      BG 9_21: -225124329
+      BG 9_210: -8971036
+      BG 9_211: -1769759355
+      BG 9_212: 2085921380
+      BG 9_213: -522072224
+      BG 9_214: 1765360951
+      BG 9_215: -1322042492
+      BG 9_216: 1515459688
+      BG 9_217: -2023820869
+      BG 9_218: 579674796
+      BG 9_219: -249532014
+      BG 9_22: -832961716
+      BG 9_220: 1059832309
+      BG 9_221: 633584625
+      BG 9_222: -1745886937
+      BG 9_223: 1517518138
+      BG 9_224: 280743730
+      BG 9_225: 1831041652
+      BG 9_226: -139001653
+      BG 9_227: -966301727
+      BG 9_228: -378560404
+      BG 9_229: 695290669
+      BG 9_23: 1645970719
+      BG 9_230: -1268520427
+      BG 9_231: -1238191018
+      BG 9_232: -720386063
+      BG 9_233: -905305130
+      BG 9_234: 323910404
+      BG 9_235: 2147336972
+      BG 9_236: -2072393361
+      BG 9_237: 1754091264
+      BG 9_238: -1595869906
+      BG 9_239: -679623209
+      BG 9_24: 201614893
+      BG 9_240: -1507499984
+      BG 9_241: 1560727269
+      BG 9_242: 1691016708
+      BG 9_243: 1404996001
+      BG 9_244: 2109711830
+      BG 9_245: -1263577137
+      BG 9_246: 1538445796
+      BG 9_247: -1652604894
+      BG 9_248: -184398323
+      BG 9_249: -316093854
+      BG 9_25: -481255845
+      BG 9_250: -1706535614
+      BG 9_251: -1382734276
+      BG 9_252: -685526478
+      BG 9_253: 405703931
+      BG 9_254: 954097002
+      BG 9_255: -1525113562
+      BG 9_256: -1360096419
+      BG 9_257: 1089628650
+      BG 9_258: -1613865805
+      BG 9_259: -836112689
+      BG 9_26: -1565796145
+      BG 9_260: -802129518
+      BG 9_261: -1922376357
+      BG 9_262: -1326584782
+      BG 9_263: -1940213693
+      BG 9_264: -1445447181
+      BG 9_265: 1932935750
+      BG 9_266: -1958311588
+      BG 9_267: 618945661
+      BG 9_268: 1992557385
+      BG 9_269: -1742230596
+      BG 9_27: -99318593
+      BG 9_270: 974444897
+      BG 9_271: 100564228
+      BG 9_272: -586934834
+      BG 9_273: -1124911273
+      BG 9_274: 795009558
+      BG 9_275: 1601924550
+      BG 9_276: -224894645
+      BG 9_277: -857307514
+      BG 9_278: -2101516717
+      BG 9_279: -1884645056
+      BG 9_28: 140354661
+      BG 9_280: -1108691525
+      BG 9_281: -1375058781
+      BG 9_282: 1821237652
+      BG 9_283: 1775398566
+      BG 9_284: -355064252
+      BG 9_285: 1053739004
+      BG 9_286: 1168732671
+      BG 9_287: 558602065
+      BG 9_288: -280317357
+      BG 9_289: -1112525278
+      BG 9_29: -1834540493
+      BG 9_290: -2126429890
+      BG 9_291: 1845370575
+      BG 9_292: 73935630
+      BG 9_293: 298075417
+      BG 9_294: -1859247565
+      BG 9_295: 1072970386
+      BG 9_296: 781653630
+      BG 9_297: -1615794068
+      BG 9_298: 39157098
+      BG 9_299: -498983168
+      BG 9_3: -1980987070
+      BG 9_30: 2084899651
+      BG 9_300: -28723535
+      BG 9_301: -1595627928
+      BG 9_302: 1329382582
+      BG 9_303: -1078243697
+      BG 9_304: 1854289474
+      BG 9_305: -1425281763
+      BG 9_306: 1401880036
+      BG 9_307: -2136521504
+      BG 9_308: -1747273192
+      BG 9_309: 518388366
+      BG 9_31: 1681076432
+      BG 9_310: 1760655
+      BG 9_311: 146513344
+      BG 9_312: 803020500
+      BG 9_313: -26966249
+      BG 9_314: -688738229
+      BG 9_315: -1996731036
+      BG 9_316: -661842934
+      BG 9_317: -1372329618
+      BG 9_318: 1132515458
+      BG 9_319: 1462985448
+      BG 9_32: 529008295
+      BG 9_320: 1920859591
+      BG 9_321: -1684420373
+      BG 9_322: -35242354
+      BG 9_323: -463939506
+      BG 9_324: 227019674
+      BG 9_325: -416359866
+      BG 9_326: -1486204215
+      BG 9_327: 1813296489
+      BG 9_328: -138792008
+      BG 9_329: 878158090
+      BG 9_33: 1476542893
+      BG 9_330: 1545018829
+      BG 9_331: -2116785330
+      BG 9_332: -1124470346
+      BG 9_333: 1948182291
+      BG 9_334: 185308450
+      BG 9_335: 128966548
+      BG 9_336: -2036289971
+      BG 9_337: 1798945007
+      BG 9_338: -2116199107
+      BG 9_339: 267533940
+      BG 9_34: -303835713
+      BG 9_340: -118728268
+      BG 9_341: -1999591954
+      BG 9_342: -1409691334
+      BG 9_343: -685571506
+      BG 9_344: -781320997
+      BG 9_345: 897090189
+      BG 9_346: 621054197
+      BG 9_347: -578191470
+      BG 9_348: 850030257
+      BG 9_349: -350193957
+      BG 9_35: 1803181438
+      BG 9_350: 115294406
+      BG 9_351: 1115484834
+      BG 9_36: -343723435
+      BG 9_37: -1112931135
+      BG 9_38: -199470321
+      BG 9_39: 694144008
+      BG 9_4: -231256943
+      BG 9_40: -1893973912
+      BG 9_41: 875172369
+      BG 9_42: 347737725
+      BG 9_43: 153453870
+      BG 9_44: 212183379
+      BG 9_45: 1599494111
+      BG 9_46: -600117845
+      BG 9_47: 1345549252
+      BG 9_48: -2095708657
+      BG 9_49: -1834452036
+      BG 9_5: 1830084692
+      BG 9_50: -1672216751
+      BG 9_51: -1645183598
+      BG 9_52: 980781310
+      BG 9_53: 1667898605
+      BG 9_54: 1832908303
+      BG 9_55: -300741363
+      BG 9_56: 519322511
+      BG 9_57: -819013967
+      BG 9_58: 1449206735
+      BG 9_59: -8209405
+      BG 9_6: 1593711812
+      BG 9_60: -1904512661
+      BG 9_61: -1563097339
+      BG 9_62: -1711239852
+      BG 9_63: 1632453651
+      BG 9_64: -2091465262
+      BG 9_65: -1747629503
+      BG 9_66: 402956458
+      BG 9_67: -117839776
+      BG 9_68: -46234227
+      BG 9_69: -975706754
+      BG 9_7: -1978594233
+      BG 9_70: -536699766
+      BG 9_71: -1949832300
+      BG 9_72: 1656321802
+      BG 9_73: 1224342490
+      BG 9_74: 574087817
+      BG 9_75: 185235872
+      BG 9_76: -2064699002
+      BG 9_77: 1863189431
+      BG 9_78: -824598050
+      BG 9_79: -676351756
+      BG 9_8: 1658452491
+      BG 9_9: 1753045222
+      BG 9_90: 1443065141
+      BG 9_91: -1336042359
+      BG 9_92: 1169100538
+      BG 9_93: -492513442
+      BG 9_94: 1877141145
+      BG 9_95: -501038150
+      BG 9_96: 1546272741
+      BG 9_97: 1840312553
+      BG 9_98: 1620638448
+      BG 9_99: -757850782
+      sword-1: 974257082
+      sword-10: -724063015
+      sword-2: -2079055888
+      sword-3: -935734077
+      sword-4: -204288064
+      sword-5: -521018836
+      sword-6: 1535306060
+      sword-7: -2039962484
+      sword-8: -749056197
+      sword-9: -143930310
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

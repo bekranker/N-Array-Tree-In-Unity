@@ -36,3 +36,5 @@ Bu projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz:
    ```bash
    git clone https://github.com/username/ItemHandler.git
    ```
+
+##**NOTE**

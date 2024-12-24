@@ -21,7 +21,7 @@ NOTE: İç içe bir sistem olduğundan dolayı (ilk başta rootu tanımlayıp at
  |   |   |   |     |   |   |   |
 -O- -O- -O- -O-   -O- -O- -O- -O- =========> burası da recursive function'da return ettiğimiz yer;
 
-
+NOTE: Unity'de test edilebilir. Her Bir _Items öğesi birer ana Root. Örneğin: Weapons, Shields ve Costumes Scribtable Objeleri birer Root.
 */
 public class ItemHandler : MonoBehaviour
 {

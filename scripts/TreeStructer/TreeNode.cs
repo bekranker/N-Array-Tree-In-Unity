@@ -5,6 +5,7 @@ namespace AI.Tree
 {
   public class TreeNode<T>
   {
+    public int Index; // 1.2.1 etc;
     public T Data;
     public List<TreeNode<T>> Children;
 

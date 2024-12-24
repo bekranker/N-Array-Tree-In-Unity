@@ -10,11 +10,13 @@ namespace AI.Tree
         public Tree(T root)
         {
             Root = new TreeNode<T>(root);
+            Root.Index = 0;
         }
 
-        public TreeNode<T> AddChild(TreeNode<T> parent, T child)
+        public TreeNode<T> AddChild(TreeNode<T> parent, T child, int layer)
         {
             TreeNode<T> childNode = new TreeNode<T>(child);
+            childNode.Index = layer;
             parent.Children.Add(childNode);
             //ekstra ekledim, tekrar FindNode çağırmamak amaçlı
             return childNode;
@@ -73,13 +75,6 @@ namespace AI.Tree
                 Traverse(child, visitAction);
             }
         }
-        //For debuging
-        public void PrintAllTree(TreeNode<T> startNode)
-        {
-            foreach (TreeNode<T> treeNode in startNode.Children)
-            {
-                //Debug.Log();
-            }
-        }
+
     }
 }

@@ -63,7 +63,35 @@ namespace AI.Tree
 
             return null;
         }
+        public TreeNode<T> FindPreviousNode(TreeNode<T> root, T data)
+        {
+            TreeNode<T> previous = null;
 
+            if (root == null)
+                return null;
+
+            // Traverse through the children nodes
+            foreach (TreeNode<T> child in root.Children)
+            {
+                if (child.Data.Equals(data))
+                {
+                    // If the current node's data matches, return the previous node (parent)
+                    return previous;
+                }
+
+                // Before moving to the next child, update the previous node
+                previous = root;
+
+                // Recurse through the child nodes
+                TreeNode<T> result = FindPreviousNode(child, data);
+                if (result != null)
+                {
+                    return result;
+                }
+            }
+
+            return null;
+        }
         public void Traverse(TreeNode<T> root, Action<TreeNode<T>> visitAction)
         {
             if (root == null)

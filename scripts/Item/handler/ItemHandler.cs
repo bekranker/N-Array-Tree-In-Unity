@@ -86,6 +86,19 @@ public class ItemHandler : MonoBehaviour
 			PrintAllTree(item.Root);
 		}
 	}
+	//returning clicked Item's Parent is sold or not
+	public bool CheckIsItemSold(Item clickedItem)
+	{
+		foreach (Tree<Item> item in _createdTrees)
+		{
+			if (item.Root.Data == clickedItem)
+			{
+				return item.Root.Data;
+			}
+			return item.FindPreviousNode(item.Root, clickedItem).Data.Sold;
+		}
+		return false;
+	}
 	private void PrintAllTree(TreeNode<Item> startNode)
 	{
 		if (startNode.Children.Count == 0) return;

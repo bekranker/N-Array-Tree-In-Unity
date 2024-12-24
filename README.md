@@ -9,6 +9,7 @@ Bu proje, öğelerin hiyerarşik bir yapıda düzenlenmesini sağlayan bir siste
 - [Dosya Yapısı](#dosya-yapısı)
 - [Katkıda Bulunma](#katkıda-bulunma)
 - [Lisans](#lisans)
+- [NOTE](#note)
 
 ## Proje Tanımı
 
@@ -37,4 +38,6 @@ Bu projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz:
    git clone https://github.com/username/ItemHandler.git
    ```
 
-##**NOTE**
+## **NOTE**
+
+Bu proje Oyunda Yapay Zeka Dersi Quiz'i için yapılmıştır.

@@ -78,7 +78,7 @@ public class ItemHandler : MonoBehaviour
 		}
 
 	}
-	//For debuging
+	//Debuglamak için
 	public void PrintTreeButtonFunction()
 	{
 		foreach (Tree<Item> item in _createdTrees)
@@ -86,8 +86,8 @@ public class ItemHandler : MonoBehaviour
 			PrintAllTree(item.Root);
 		}
 	}
-	//returning clicked Item's Parent is sold or not
-	public bool CheckIsItemSold(Item clickedItem)
+	//Eğer ki tıkladığımız item'ın (ya da herhangi bir itemda olabilir ben UI'da tıklama eylemi yapılıyormuş gibi düşünerek ilerledim) parent'ı satılmış ise true döndürür. Eğer True ise item satın alınabilir. eğer false ise item satın alınamaz. 
+	public bool CheckItemCanBuyable(Item clickedItem)
 	{
 		foreach (Tree<Item> item in _createdTrees)
 		{

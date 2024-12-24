@@ -1,32 +1,79 @@
 # ItemHandler - Tree Structure Project 🌳
 
-This project contains a system that allows elements to be organized in a hierarchical structure. The `ItemHandler` class manages the elements and their sub-elements by placing them in a tree structure. The project uses recursive functions to work with data structures associated with sub-elements.
+This project implements a hierarchical tree structure to manage items and their sub-items using recursive functions in Unity. The `ItemHandler` class handles the creation of trees, adds sub-items to the tree nodes, and performs various operations on the tree structure.
 
 ## Table of Contents 📚
 
-- [Project Description](#project-description)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Description](#project-description-)
+- [Usage](#usage-)
+- [Functions](#functions-)
 - [NOTE](#note)
+- [Diagram](#diagram-representation-️)
 
 ## Project Description 📝
 
-This project uses a hierarchical tree structure (`Tree` and `TreeNode`) to manage elements and their sub-elements. Each element (`Item`) represents a category (e.g., weapons, shields), and these elements can have their own sub-elements (`SubItems`). These sub-elements are also added to the tree structure. The `ItemHandler` class manages these elements and constructs the trees.
+This project uses a tree structure (`Tree` and `TreeNode`) to manage items and their sub-items. Each item (e.g., weapons, shields) can have sub-items (e.g., specific weapons or shield types) which are added recursively to form a complete hierarchy.
 
-### Key Components 🔑
+### Key Components 🔑:
 
 1. **Item**: Represents categories (e.g., weapons, shields) 🛡️⚔️.
 2. **Tree**: Represents the tree structure 🌳 and contains the root node for each element.
 3. **TreeNode**: Represents each node in the tree, including the data (item) and its sub-elements 🌲.
 4. **ItemHandler**: Manages the elements and organizes them in tree structures ⚙️.
 
-### Functions 🔧
+### Functions 🔧:
 
-- **CreateNArrayTree()**: Creates a tree structure for each element and adds sub-elements 🌱.
-- **AddChildRecursiveFunction()**: Adds sub-elements to the tree (recursive) 🔁.
-- **PrintTreeButtonFunction()**: Prints the tree structure for debugging 🖨️.
+#### **CreateNArrayTree()** 🌱
+
+- This function loops through the root items (e.g., Weapons, Shields) and creates a tree for each category.
+- If a category has no sub-items, it logs a message and skips that category.
+- If sub-items are present, it calls `AddChildRecursiveFunction` to add them to the tree recursively.
+
+#### **AddChildRecursiveFunction()** 🔁
+
+- This function recursively adds sub-items to the current tree node.
+- It continues to call itself until no more sub-items are found, ensuring the entire hierarchy is built.
+- It stops and returns when there are no more children for a particular node.
+
+#### **PrintTreeButtonFunction()** 🖨️
+
+- This function iterates through all created trees and prints the tree structure for debugging purposes using `PrintAllTree`.
+
+#### **CheckItemCanBuyable()** 💰
+
+- This function checks if an item is purchasable by verifying if its parent has been "sold".
+- If the parent is sold (`Sold == true`), the item is available for purchase.
+- It returns a boolean value to indicate whether the item can be bought.
+
+#### **PrintAllTree()** 📜
+
+- This is a recursive function that prints the entire tree structure from any given start node.
+- It prints the connection between parent and child nodes by recursively traversing the tree.
+
+## **NOTE** 📝
+
+The project uses a recursive approach to handle hierarchical data. Initially, the root nodes are defined and assigned, and then the sub-items are recursively added to their corresponding parent nodes.
+
+### Diagram Representation 🏷️
+
+`               -O-  ==============> This is the root we defined with _Items;
+              |   |
+        ------O   O------ ============> these are SubItems from _Items[i];
+       |                 | ===============> From here on it's already a recursive function;
+    ---O---           ---O---
+   |       |         |       |
+  -O-     -O-       -O-     -O-
+ |   |   |   |     |   |   |   |
+ |   |   |   |     |   |   |   |
+ |   |   |   |     |   |   |   |
+   .   .   .         .   .   .
+ |   |   |   |     |   |   |   |
+ |   |   |   |     |   |   |   |
+-O- -O- -O- -O-   -O- -O- -O- -O- =========> This is where we return in the recursive function.;`
+
+### Unity Test
+
+You can test the functionality in Unity. Each item in `_Items` is treated as a root. For example, **Weapons**, **Shields**, and **Costumes** are each defined as `Scriptable Objects`, and each of them serves as a root in the tree structure.
 
 ## Usage ⚡
 
@@ -37,7 +84,3 @@ To use this project, follow these steps:
    ```bash
    git clone https://github.com/username/ItemHandler.git
    ```
-
-## **NOTE 📝**
-
-This project was made for the AI in Game Quiz 🤖🎮.

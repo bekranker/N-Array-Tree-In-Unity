@@ -1,38 +1,38 @@
-# ItemHandler - Tree Yapısı Projesi
+# ItemHandler - Tree Structure Project
 
-Bu proje, öğelerin hiyerarşik bir yapıda düzenlenmesini sağlayan bir sistem içerir. `ItemHandler` sınıfı, öğeler ve onların alt öğelerini bir ağaç yapısına yerleştirerek bu öğeleri yönetir. Proje, alt öğelerle ilişkili veri yapıları üzerinde çalışmak için rekürsif fonksiyonlar kullanır.
+This project contains a system that allows elements to be organized in a hierarchical structure. The `ItemHandler` class manages the elements and their sub-elements by placing them in a tree structure. The project uses recursive functions to work with data structures associated with sub-elements.
 
-## İçindekiler
+## Table of Contents
 
-- [Proje Tanımı](#proje-tanımı)
-- [Kullanım](#kullanım)
-- [Dosya Yapısı](#dosya-yapısı)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
+- [Project Description](#project-description)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 - [NOTE](#note)
 
-## Proje Tanımı
+## Project Description
 
-Bu proje, öğeleri ve alt öğelerini yönetmek için hiyerarşik bir ağaç yapısı (`Tree` ve `TreeNode`) kullanır. Her öğe (`Item`) bir kategoriyi temsil eder (örneğin, silahlar, kalkanlar) ve bu öğeler kendi alt öğelerine (`SubItems`) sahip olabilir. Bu alt öğeler de bir ağaç yapısına eklenir. `ItemHandler` sınıfı, bu öğeleri yönetir ve ağaçları oluşturur.
+This project uses a hierarchical tree structure (`Tree` and `TreeNode`) to manage elements and their sub-elements. Each element (`Item`) represents a category (e.g., weapons, shields), and these elements can have their own sub-elements (`SubItems`). These sub-elements are also added to the tree structure. The `ItemHandler` class manages these elements and constructs the trees.
 
-### Temel Bileşenler:
+### Key Components:
 
-1. **Item**: Kategorileri temsil eden öğeler.
-2. **Tree**: Ağaç yapısını temsil eder ve her öğe için kök düğümü içerir.
-3. **TreeNode**: Ağaçtaki her bir düğümün verilerini (öğeyi) ve alt öğelerini temsil eder.
-4. **ItemHandler**: Öğeleri yönetir ve ağaç yapılarında organize eder.
+1. **Item**: Represents categories (e.g., weapons, shields).
+2. **Tree**: Represents the tree structure and contains the root node for each element.
+3. **TreeNode**: Represents each node in the tree, including the data (item) and its sub-elements.
+4. **ItemHandler**: Manages the elements and organizes them in tree structures.
 
-### İşlevler:
+### Functions:
 
-- **CreateNArrayTree()**: Her bir öğe için bir ağaç yapısı oluşturur ve alt öğeleri ekler.
-- **AddChildRecursiveFunction()**: Alt öğeleri ağaç yapısına ekler (rekürsif).
-- **PrintTreeButtonFunction()**: Ağaç yapısını debug için yazdırır.
+- **CreateNArrayTree()**: Creates a tree structure for each element and adds sub-elements.
+- **AddChildRecursiveFunction()**: Adds sub-elements to the tree (recursive).
+- **PrintTreeButtonFunction()**: Prints the tree structure for debugging.
 
-## Kullanım
+## Usage
 
-Bu projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz:
+To use this project, follow these steps:
 
-1. **Proje dosyasını indirin**: GitHub deposunu klonlayın veya zip olarak indirin.
+1. **Download the project files**: Clone the GitHub repository or download it as a zip file.
 
    ```bash
    git clone https://github.com/username/ItemHandler.git
@@ -40,4 +40,4 @@ Bu projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz:
 
 ## **NOTE**
 
-Bu proje Oyunda Yapay Zeka Dersi Quiz'i için yapılmıştır.
+This project was made for the AI in Game Quiz.

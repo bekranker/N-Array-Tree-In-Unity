@@ -8,7 +8,6 @@ This project implements a hierarchical tree structure to manage items and their 
 - [Usage](#usage-)
 - [Functions](#functions-)
 - [NOTE](#note)
-- [Diagram](#diagram-representation-️)
 
 ## Project Description 📝
 
@@ -53,23 +52,6 @@ This project uses a tree structure (`Tree` and `TreeNode`) to manage items and t
 ## **NOTE** 📝
 
 The project uses a recursive approach to handle hierarchical data. Initially, the root nodes are defined and assigned, and then the sub-items are recursively added to their corresponding parent nodes.
-
-### Diagram Representation 🏷️
-
-`               -O-  ==============> This is the root we defined with _Items;
-              |   |
-        ------O   O------ ============> these are SubItems from _Items[i];
-       |                 | ===============> From here on it's already a recursive function;
-    ---O---           ---O---
-   |       |         |       |
-  -O-     -O-       -O-     -O-
- |   |   |   |     |   |   |   |
- |   |   |   |     |   |   |   |
- |   |   |   |     |   |   |   |
-   .   .   .         .   .   .
- |   |   |   |     |   |   |   |
- |   |   |   |     |   |   |   |
--O- -O- -O- -O-   -O- -O- -O- -O- =========> This is where we return in the recursive function.;`
 
 ### Unity Test
 

@@ -7,18 +7,20 @@ namespace AI.Tree
     {
         public TreeNode<T> Root;
 
-        public Tree(T rootData)
+        public Tree(T root)
         {
-            Root = new TreeNode<T>(rootData);
+            Root = new TreeNode<T>(root);
         }
 
-        public void AddChild(TreeNode<T> parent, T childData)
+        public TreeNode<T> AddChild(TreeNode<T> parent, T child)
         {
-            TreeNode<T> childNode = new TreeNode<T>(childData);
+            TreeNode<T> childNode = new TreeNode<T>(child);
             parent.Children.Add(childNode);
+            //ekstra ekledim, tekrar FindNode çağırmamak amaçlı
+            return childNode;
         }
 
-        public bool RemoveChild(TreeNode<T> parent, T data)
+        public bool RemoveChild(TreeNode<T> parent, T childnodes)
         {
             if (parent == null)
                 return false;
@@ -26,13 +28,13 @@ namespace AI.Tree
             for (int i = 0; i < parent.Children.Count; i++)
             {
                 TreeNode<T> child = parent.Children[i];
-                if (child.Data.Equals(data))
+                if (child.Data.Equals(childnodes))
                 {
                     parent.Children.RemoveAt(i);
                     return true;
                 }
 
-                if (RemoveChild(child, data))
+                if (RemoveChild(child, childnodes))
                     return true;
             }
 

@@ -32,7 +32,7 @@ This project uses a hierarchical tree structure (`Tree` and `TreeNode`) to manag
 
 To use this project, follow these steps:
 
-1. **Download the project files**: Clone the GitHub repository or download it as a zip file.
+1. **Download the project files**: Clone the GitHub repository or download it as a zip file 📥.
 
    ```bash
    git clone https://github.com/username/ItemHandler.git

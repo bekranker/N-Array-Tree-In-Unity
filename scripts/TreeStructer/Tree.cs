@@ -73,5 +73,13 @@ namespace AI.Tree
                 Traverse(child, visitAction);
             }
         }
+        //For debuging
+        public void PrintAllTree(TreeNode<T> startNode)
+        {
+            foreach (TreeNode<T> treeNode in startNode.Children)
+            {
+                //Debug.Log();
+            }
+        }
     }
 }

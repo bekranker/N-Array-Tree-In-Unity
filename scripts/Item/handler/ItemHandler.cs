@@ -5,17 +5,22 @@ using UnityEngine;
 
 /*
 
-NOTE: İç içe bir sistem olduğundan dolayı (ilk başta rootu tanımlayıp atadıktan sonra) Recursion fonksiyon ile bütün childları parentlarına atamak zorunda kalıyoruz.
+NOTE: İç içe bir sistem olduğundan dolayı (ilk başta rootu tanımlayıp atadıktan sonra) recursive function ile bütün childları parentlarına atamak zorunda kalıyoruz.
 
-               -O-
+               -O-  ==============> _Items ile tanımladığımız root bu
               |   |
-        ------O   O------
-       |                 |
+        ------O   O------ ============> bunlar _Items[i]'den gelen SubItemslar
+       |                 | ===============> buradan sonrası zaten recursive function
     ---O---           ---O---
    |       |         |       |
   -O-     -O-       -O-     -O-
  |   |   |   |     |   |   |   |
--O- -O- -O- -O-   -O- -O- -O- -O-
+ |   |   |   |     |   |   |   |
+ |   |   |   |     |   |   |   |
+   .   .   .         .   .   .
+ |   |   |   |     |   |   |   |
+ |   |   |   |     |   |   |   |
+-O- -O- -O- -O-   -O- -O- -O- -O- =========> burası da recursive function'da return ettiğimiz yer.
 
 
 */
@@ -47,12 +52,12 @@ public class ItemHandler : MonoBehaviour
 			//burada da childları varsa childlerı atayacağız.
 			foreach (Item item in _Items[i].SubItems)
 			{
-				AddChildRecursionFunction(_tree, _tree.Root, item);
+				AddChildRecursiveFunction(_tree, _tree.Root, item);
 			}
 		}
 	}
 	//bu fonksiyon kendini sürekli çağırıyor (Eğer child T data'nın içerisinde hala varsa, yoksa return olur)
-	private void AddChildRecursionFunction(Tree<Item> currentTree, TreeNode<Item> currentParent, Item currentItem)
+	private void AddChildRecursiveFunction(Tree<Item> currentTree, TreeNode<Item> currentParent, Item currentItem)
 	{
 		TreeNode<Item> tempParent = currentTree.AddChild(currentParent, currentItem);
 		//child yok return olur ve böylelikle tree'nin belli bir kısmı bitmiş olur.
@@ -64,7 +69,7 @@ public class ItemHandler : MonoBehaviour
 
 		foreach (Item item in currentItem.SubItems)
 		{
-			AddChildRecursionFunction(currentTree, tempParent, item);
+			AddChildRecursiveFunction(currentTree, tempParent, item);
 		}
 
 	}

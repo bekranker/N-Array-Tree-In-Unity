@@ -1,6 +1,6 @@
 # ItemHandler - Tree Structure Project 🌳
 
-This project implements a hierarchical tree structure to manage items and their sub-items using recursive functions in Unity. The `ItemHandler` class handles the creation of trees, adds sub-items to the tree nodes, and performs various operations on the tree structure.
+This project implements a hierarchical tree structure to manage items and their sub-items using recursive functions in Unity. The `ItemHandler` class handles the creation of trees, adds sub-items to the tree nodes, and performs various operations on the tree structure. This project is maded for lesson of Artificial inteligence in the game.
 
 ## Table of Contents 📚
 

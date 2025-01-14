@@ -7,7 +7,7 @@ This project implements a hierarchical tree structure to manage items and their 
 - [Project Description](#project-description-)
 - [Usage](#usage-)
 - [Functions](#functions-)
-- [NOTE](#note)
+- [NOTE](#note-)
 
 ## Project Description 📝
 
